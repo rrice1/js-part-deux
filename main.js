@@ -37,3 +37,10 @@ const quote = 'winter is coming';
 const newQuote = quote.replace(/is/g,"ain't");
 console.log('newQuote',newQuote);
 
+
+// object
+const fancyObject = {};
+
+fancyObject.color = 'red';
+fancyObject['number'] = 10;
+console.log("fancyObject", fancyObject);
